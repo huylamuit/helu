@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.global_banner{
+  height: 50px;
+  background-color: #f4f4f4;
+  display: block;
+  padding: 5px 150px 5px 150px;
+}
+
+.language{
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.language_EN{
+  border-right: 0.5px solid black;
+  margin-right: 2px;
+  padding-right: 2px;
+}
+.language_icon{
+  width: 20px;
+
+}
+
+.navigation{
+  margin: 0 150px 0 150px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  height: 100%;
+  display: inline-block;
+}
+.menu li{
+  display: inline-block;
+  padding: 1px 5px 1px 5px;
+  align-items: center;
+}
+
+.menu img{
+  transform: translate(y)
+  width: 50px;
+}
+
+.menu_function{
+  display: inline-block;
+
+}
+
+.menu_function li{
+  display: inline-block;
+  padding-right: 20px;
+}
